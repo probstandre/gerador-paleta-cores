@@ -1,0 +1,183 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.corpo {
+  font-family: Verdana;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.paleta {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.gerador {
+  position: absolute;
+  top: 50vh;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+#colorButton {
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  font-family: "Segoe UI";
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+#colorButton:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #ffffff;
+  transition: 0.7s;
+}
+
+.color-value {
+  margin-top: 25px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.color-value {
+  height: 3vh;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.color-value:hover {
+  cursor: pointer;
+  opacity: 50%;
+  background-color: #ffffff;
+  transition: 0.5s;
+}
